@@ -159,4 +159,7 @@
 # print(a>=b)
 
                #chapter2
-         # string and Conditional statement.
+         # string and Conditional statement
+a = 45 
+b = 5
+print(a+b)
