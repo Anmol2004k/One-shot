@@ -160,6 +160,12 @@
 
                #chapter2
          # string and Conditional statement
-a = 45 
-b = 5
-print(a+b)
+         #types 
+
+# str1 = "This is string "
+# str2 = 'Anmol kumar'
+# str3 = """ I am A student"""
+
+         #escape sequence character   \n   for weiting big pharagraph 
+# str1 = " i am anmol. \n my age is 21 ."
+# print(str1)
