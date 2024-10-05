@@ -169,3 +169,23 @@
          #escape sequence character   \n   for weiting big pharagraph 
 # str1 = " i am anmol. \n my age is 21 ."
 # print(str1)
+
+           #Basic Operations 
+     # concatetation (ADDING) TWO DIFFERNT STRING 
+# str1 = "Anmol"
+#     # print(len(str1))
+# len1 = len(str1) 
+# print(len1)  
+# str2 = "Kumar"
+#      # print(len(str2))
+# len2 = len(str2)
+# print(len2)
+# final = str1+" "+str2     #For space add " "
+# print(final)
+# print(len(final))  
+                # ACCESING ELEMENT OF STRING  BY USING INDEX 
+# str1 = "AnmolKumarThakur"
+# ch = str1[7]
+# print(ch)
+
+          #SLICING (TUKDE KARNA ) [KISI PARTICULAR PART KO ACCES KARNAA]
