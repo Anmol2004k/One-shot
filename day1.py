@@ -190,5 +190,12 @@
 
           #SLICING (TUKDE KARNA ) [KISI PARTICULAR PART KO ACCES KARNAA]
 str1 = "Anmolkumarthakur"
-ch = str1[2:9]   #exclude end index 9 is not included
-print(ch)
+print(str1[2:9])   #exclude end index 9 is not included
+print(str1[5:])
+print(str1[:5])
+print(str1[2:len(str1)])
+print(str1[:-6])
+print(str1[-13:-3])
+
+        # Other Strin Functions 
+        
