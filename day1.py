@@ -189,3 +189,6 @@
 # print(ch)
 
           #SLICING (TUKDE KARNA ) [KISI PARTICULAR PART KO ACCES KARNAA]
+str1 = "Anmolkumarthakur"
+ch = str1[2:9]   #exclude end index 9 is not included
+print(ch)
