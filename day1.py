@@ -197,5 +197,17 @@ print(str1[2:len(str1)])
 print(str1[:-6])
 print(str1[-13:-3])
 
-        # Other Strin Functions 
-        
+        # Other Strin Functions 2:50:23
+     #len(): Returns the length of the string.
+string = "Hello, World!"
+print(len(string))  # Output: 13
+
+     #lower(): Converts the string to lowercase.
+string = "Hello, World!"
+print(string.lower())  # Output: "hello, world!"
+     #upper(): Converts the string to uppercase.
+string = "Hello, World!"
+print(string.upper())  # Output: "HELLO, WORLD!"
+     #strip(): Removes any leading and trailing whitespace characters.
+string = "  Hello, World!  "
+print(string.strip())  # Output: "Hello, World!"
