@@ -211,3 +211,26 @@ print(string.upper())  # Output: "HELLO, WORLD!"
      #strip(): Removes any leading and trailing whitespace characters.
 string = "  Hello, World!  "
 print(string.strip())  # Output: "Hello, World!"
+    #replace(old, new): Replaces all occurrences of the old substring with a new one.
+string = "Hello, World!"
+print(string.replace("World", "Python"))  # Output: "Hello, Python!"
+
+      #split(): Splits the string into a list of substrings based on a specified delimiter (default is space).
+string = "Hello, World!"
+print(string.split())  # Output: ['Hello,', 'World!']
+
+      #join(): Joins the elements of an iterable (like a list) into a single string, using the specified string as the delimiter.
+words = ['Hello', 'World']
+print(" ".join(words))  # Output: "Hello World"
+
+        #find(sub): Returns the index of the first occurrence of the substring, or -1 if not found.
+string = "Hello, World!"
+print(string.find("World"))  # Output: 7
+
+         #startswith(prefix): Checks if the string starts with the specified prefix.
+string = "Hello, World!"
+print(string.startswith("Hello"))  # Output: True
+
+         #endswith(suffix): Checks if the string ends with the specified suffix.
+string = "Hello, World!"
+print(string.endswith("World!"))  # Output: True
